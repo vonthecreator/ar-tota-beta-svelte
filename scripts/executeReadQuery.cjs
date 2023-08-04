@@ -3,7 +3,7 @@ const { kwil, dbid, signer } = require("./index.cjs");
 const { Utils } = require("kwil");
 
 
-const wallet = "<0xEthAddress>"; // Use your own address here
+const wallet = "0xEthAddress"; // Use your own address here
 //get dbID
 async function getDBID(addresws, dbName) {
     let dbi = await kwil.selectDatabase(address, dbName);

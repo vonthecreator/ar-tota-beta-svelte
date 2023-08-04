@@ -2,7 +2,7 @@ const { kwil, dbid, signer } = require("./index.cjs");
 const { Utils } = require("kwil");
 
 
-const wallet = "<0xEthAddress>"; // Use your own address here
+const wallet = "<EtheAddress>"; // Use your own address here
 
 async function executeQuery(ownerAddresss, dbName) {
     const dbi = await kwil.selectDatabase(ownerAddresss, dbName);

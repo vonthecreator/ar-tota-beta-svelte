@@ -14,7 +14,7 @@ const databaseName = "app_data";
 
 const dbid = Utils.generateDBID(walletAddress, databaseName);
 
-const signer = new Wallet(process.env.PRIVATE_KEY); 
+const signer = new Wallet(process.env.PRIVATE_KEY); // Use your own private key here
 
 module.exports = {
   kwil,
