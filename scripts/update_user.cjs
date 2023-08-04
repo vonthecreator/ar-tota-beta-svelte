@@ -17,4 +17,4 @@ async function createUser(name, age) {
     return await kwil.broadcast(actionTx);
 }
 
-createUser("jharmony", 39);
+createUser("Luis", 23);

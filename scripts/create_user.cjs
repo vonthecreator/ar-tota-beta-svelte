@@ -18,4 +18,4 @@ async function createUser(id, name, age) {
     return await kwil.broadcast(actionTx);
 }
 
-createUser(2, "perseus", 23);
+createUser(3, "John", 23);

@@ -17,4 +17,4 @@ async function createUser(address, access) {
     return await kwil.broadcast(actionTx);
 }
 
-createUser("0x2a3bB9f9b1a305F39C917b8a5b7fBa0Be1fe3601", 1);
+createUser("<0xEthAddress>", 1);
