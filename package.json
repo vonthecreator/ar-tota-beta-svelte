@@ -22,7 +22,9 @@
     "deploy": "vite build && arkb deploy dist --wallet wallet.json --use-bundler https://node2.bundlr.network"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.28.0",
     "arweave-graphql": "^0.0.5",
+    "arweave-wallet-ui-test": "^0.0.12",
     "buffer": "^6.0.3",
     "ethers": "^6.6.7",
     "graphql-request": "^6.1.0",
@@ -30,6 +32,7 @@
     "process": "^0.11.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "styled-components": "^6.0.7",
     "util": "^0.12.4"
   },
   "devDependencies": {

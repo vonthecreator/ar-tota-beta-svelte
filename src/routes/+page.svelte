@@ -4,7 +4,7 @@
   import Transition from '../components/transition.svelte';
   import Home from '../home.svelte';
   import Player from './player/+page.svelte';
-  // import Upload from './upload-udl/+page.svelte';
+  import Upload from './upload-udl/+page.svelte';
   // import User from './user/+page.svelte';
 
 
@@ -29,11 +29,11 @@
  <Route path="/player">
     <Player />
   </Route>
- <!-- 
+
   <Route path="/upload-udl">
     <Upload />
   </Route>
-
+ <!-- 
   <Route path="/user">
     <User />
   </Route> -->
