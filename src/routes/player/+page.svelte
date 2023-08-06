@@ -1,4 +1,5 @@
 <script lang="ts">
+<<<<<<< HEAD
   import { Route as TinroRoute, router } from 'tinro';
   import Announcer from '../../components/announcer.svelte';
   import Transition from '../../components/transition.svelte';
@@ -16,6 +17,22 @@
   <a href="/">home</a>
   <a href="/user">user</a>
   <a href="/upload-udl">upload</a>
+=======
+  //   import Image from 'next/image';
+  // Define the component's type if it's not already defined elsewhere
+  // You may not need this line if NextPage is already defined in your project
+  // type NextPage<P = Record<string, unknown>> = {
+  //   (props: P): JSX.Element | null;
+  //   getInitialProps?: (ctx: any) => Promise<P>;
+  // };
+</script>
+
+
+<nav>
+  <a href="/">home</a>
+  <a href="/user">user</a>
+  <a href="/upload">upload</a>
+>>>>>>> c854fc9 (connected routes --> [src])
 </nav>
 
 

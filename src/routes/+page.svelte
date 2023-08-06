@@ -5,7 +5,11 @@
   import Home from '../home.svelte';
   import Player from './player/+page.svelte';
   import Upload from './upload-udl/+page.svelte';
+<<<<<<< HEAD
   // import User from './user/+page.svelte';
+=======
+  import User from './user/+page.svelte';
+>>>>>>> c854fc9 (connected routes --> [src])
 
 
   router.mode.hash();
@@ -18,26 +22,37 @@
   <nav>
     <a href="/">home</a>
     <a href="/player">player</a>
-    <!-- <a href="/user">user</a>
-    <a href="/upload-udl">upload</a> -->
+   <a href="/user">user</a>
+    <a href="/upload">upload</a> 
   </nav>
 
   <Route path="/">
     <Home />
   </Route>
 
+ 
  <Route path="/player">
     <Player />
+<<<<<<< HEAD
   </Route>
 
   <Route path="/upload-udl">
     <Upload />
   </Route>
  <!-- 
+=======
+  </Route> 
+
+
+  <Route path="/upload">
+    <Upload />
+  </Route>
+
+
+>>>>>>> c854fc9 (connected routes --> [src])
   <Route path="/user">
     <User />
-  </Route> -->
+  </Route> 
 </Transition>
-
 <style>
 </style>
