@@ -1,5 +1,4 @@
 <script lang="ts">
-<<<<<<< HEAD
   import { Route as TinroRoute, router } from 'tinro';
   import Announcer from '../../components/announcer.svelte';
   import Transition from '../../components/transition.svelte';
@@ -7,10 +6,8 @@
   // import Player from './player/+page.svelte';
   // import Upload from './upload-udl/+page.svelte';
   // import User from './user/+page.svelte';
-=======
   // import Image from 'next/image';
      import BundlrUploader from '../../components/BundlrUploader.svelte';
->>>>>>> c854fc9 (connected routes --> [src])
 
 
   router.mode.hash();

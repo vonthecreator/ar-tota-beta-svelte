@@ -5,15 +5,11 @@
   import Home from '../home.svelte';
   import Player from './player/+page.svelte';
   import Upload from './upload-udl/+page.svelte';
-<<<<<<< HEAD
-  // import User from './user/+page.svelte';
-=======
   import User from './user/+page.svelte';
->>>>>>> c854fc9 (connected routes --> [src])
 
 
   router.mode.hash();
-  router.subscribe((_) => window.scrollTo(0, 0));
+  router.subscribe(() => window.scrollTo(0, 0));
   const Route: any = TinroRoute;
 </script>
 
@@ -33,15 +29,12 @@
  
  <Route path="/player">
     <Player />
-<<<<<<< HEAD
   </Route>
 
   <Route path="/upload-udl">
     <Upload />
   </Route>
- <!-- 
-=======
-  </Route> 
+
 
 
   <Route path="/upload">
@@ -49,7 +42,6 @@
   </Route>
 
 
->>>>>>> c854fc9 (connected routes --> [src])
   <Route path="/user">
     <User />
   </Route> 
