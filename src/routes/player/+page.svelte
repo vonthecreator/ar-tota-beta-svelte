@@ -8,6 +8,7 @@
   // import User from './user/+page.svelte';
 
 
+<<<<<<< HEAD
   // router.mode.hash();
   // router.subscribe((_) => window.scrollTo(0, 0));
   // const Route: any = TinroRoute;
@@ -17,6 +18,26 @@
   <a href="/user">user</a>
   <a href="/upload-udl">upload</a>
 </nav> -->
+=======
+  router.mode.hash();
+  router.subscribe(() => window.scrollTo(0, 0));
+  const Route: any = TinroRoute;
+  //   import Image from 'next/image';
+  // Define the component's type if it's not already defined elsewhere
+  // You may not need this line if NextPage is already defined in your project
+  // type NextPage<P = Record<string, unknown>> = {
+  //   (props: P): JSX.Element | null;
+  //   getInitialProps?: (ctx: any) => Promise<P>;
+  // };
+</script>
+
+
+<nav>
+  <a href="/">home</a>
+  <a href="/user">user</a>
+  <a href="/upload">upload</a>
+</nav>
+>>>>>>> ca56b079adbe8731aba89d29f9a8711c94a27a0f
 
 <!-- <img src="/logo.png" alt="Logo"/> -->
 

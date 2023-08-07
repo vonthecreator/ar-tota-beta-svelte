@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Image from 'next/image';
+  // import Image from 'next/image';
   import BundlrUploader from './components/BundlrUploader.svelte';
 
   // Define the component's type if it's not already defined elsewhere

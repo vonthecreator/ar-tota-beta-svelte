@@ -6,14 +6,17 @@
   import Player from './player/+page.svelte';
   import Upload from './upload-udl/+page.svelte';
   import User from './user/+page.svelte';
+<<<<<<< HEAD
   import NavBar from './NavBar.svelte';
   import SideBar from './SideBar.svelte';
   import Main from './Main.svelte';
+=======
+>>>>>>> ca56b079adbe8731aba89d29f9a8711c94a27a0f
 
   let open = false
 
   router.mode.hash();
-  router.subscribe((_) => window.scrollTo(0, 0));
+  router.subscribe(() => window.scrollTo(0, 0));
   const Route: any = TinroRoute;
 </script>
 
@@ -34,15 +37,31 @@
 
 <Announcer />
 <Transition>
+<<<<<<< HEAD
   <Route path="/">
     <Home />
   </Route>
+=======
+  <nav>
+    <a href="/">home</a>
+    <a href="/player">player</a>
+   <a href="/user">user</a>
+    <a href="/upload">upload</a> 
+  </nav>
+
+  <Route path="/">
+    <Home />
+  </Route>
+
+ 
+>>>>>>> ca56b079adbe8731aba89d29f9a8711c94a27a0f
  <Route path="/player">
     <Player />
   </Route>
   <Route path="/upload-udl">
     <Upload />
   </Route>
+<<<<<<< HEAD
   <Route path="/user">
     <User />
   </Route>
@@ -52,6 +71,20 @@
 <h1>This is our footer | All Rights Reserved 2023</h1>
 </foot>
 
+=======
+
+
+
+  <Route path="/upload">
+    <Upload />
+  </Route>
+
+
+  <Route path="/user">
+    <User />
+  </Route> 
+</Transition>
+>>>>>>> ca56b079adbe8731aba89d29f9a8711c94a27a0f
 <style>
 
   /* @import '../../custom-fonts.css'; */
