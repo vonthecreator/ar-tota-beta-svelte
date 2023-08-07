@@ -12,6 +12,7 @@
         src="https://arweave.net/IWZM05IXemJ3vhKYjHfADhw-v8rw8sS2i39mVCbp-rQ"
         alt="Logo"
       /> -->
+      
       <p>
         <a href="https://github.com/PBillingsby/create-permaweb-app/blob/main/README.md" target="_blank"
           >Welcome the TOTA Web3</a
