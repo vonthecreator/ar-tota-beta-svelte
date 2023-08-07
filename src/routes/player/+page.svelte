@@ -8,25 +8,23 @@
   // import User from './user/+page.svelte';
 
 
-  router.mode.hash();
-  router.subscribe((_) => window.scrollTo(0, 0));
-  const Route: any = TinroRoute;
+  // router.mode.hash();
+  // router.subscribe((_) => window.scrollTo(0, 0));
+  // const Route: any = TinroRoute;
 </script>
-<nav>
+<!-- <nav>
   <a href="/">home</a>
   <a href="/user">user</a>
   <a href="/upload-udl">upload</a>
-</nav>
+</nav> -->
 
+<!-- <img src="/logo.png" alt="Logo"/> -->
 
-<img
-        src="https://arweave.net/j4__XzhrrllxnwtNSylas_7tOHEJ_m0l-hSYsYcBeqk"
-        alt="Logo"
-      />
 <Announcer />
 <Transition>
- <hi>hi</hi>
+ <hi class="content" style="font-family: 'IBMPlexMono-Bold', sans-serif">Welcome to our UDL Arweave Player</hi>
 </Transition>
 
 <style>
+  /* @import '.,/../custom-fonts.css'; */
 </style>

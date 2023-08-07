@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./font/IBMPlexMono-Bold.ttf') format('truetype');
+    /* Add more src lines if you have additional font files for different font styles (e.g., bold, italic). */
+  }
