@@ -28,6 +28,9 @@ artifacts
 /packages/frontend/node_modules
 packages/frontend/.next/
 /out/
+.next/
+
+
 
 # vite
 
